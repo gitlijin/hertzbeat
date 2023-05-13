@@ -79,7 +79,7 @@ module.exports = {
         {
           label: 'contributors',
           position: 'left',
-          href: 'docs/others/developer',
+          to: 'docs/others/developer',
         },
         {
           label: 'enterprise',
