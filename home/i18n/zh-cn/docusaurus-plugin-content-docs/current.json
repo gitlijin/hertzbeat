@@ -60,7 +60,7 @@
     "description": "The label for category cloud-native in sidebar docs"
   },
   "sidebar.docs.link.Cloud Service": {
-    "message": "云服务直接开始",
+    "message": "云服务",
     "description": "The label for link Cloud Service in sidebar docs, linking to https://console.tancloud.cn"
   },
   "sidebar.docs.link.Install via HuaweiCloud": {

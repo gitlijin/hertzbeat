@@ -77,6 +77,11 @@ module.exports = {
           to: 'blog/',
         },
         {
+          label: 'contributors',
+          position: 'left',
+          href: 'docs/others/developer',
+        },
+        {
           label: 'enterprise',
           position: 'left',
           to: 'docs/others/private',
@@ -88,10 +93,6 @@ module.exports = {
             {
               label: 'discuss',
               to: 'docs/others/contact',
-            },
-            {
-              label: 'contributors',
-              href: 'docs/others/developer',
             },
             {
               label: 'contributing',
