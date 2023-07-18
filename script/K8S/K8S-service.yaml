@@ -1,0 +1,17 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: hertzbeat
+  namespace: hertzbeat
+spec:
+  ports:
+    - name: http
+      protocol: TCP
+      port: 1157
+      targetPort: 1157
+      nodePort: 1157
+  selector:
+    app: hertzbeat
+  type: NodePort
+  sessionAffinity: None
+  externalTrafficPolicy: Local
